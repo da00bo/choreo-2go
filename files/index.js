@@ -8,7 +8,7 @@ const NEZHA_PORT = process.env.NEZHA_PORT || '5555';                     // 哪�
 const NEZHA_KEY = process.env.NEZHA_KEY || 'w234P6ePZrErouhg26';   // 没用哪吒，把这个参数空着
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo.bad.us.kg';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZmMxNGM4YThmMjJkNDk3MDJiOGNiOTdiOTI0M2M5N2UiLCJ0IjoiYzAxOTg2NWItYTg0Zi00NGZlLWIwMGMtN2Y5Y2YwOGEwNmI0IiwicyI6Ik1tWTVNR1k1WkRFdFpHWmlNUzAwTkRnNUxUaGlOV1V0TldaaVpUQTBPR1pqTXpsbCJ9';
-const CFIP = process.env.CFIP || 'www.visa.com.tw';
+const CFIP = process.env.CFIP || 'www.visa.com';
 const NAME = process.env.NAME || 'Choreo';
 
 // root route
